@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<title>Cadastro</title>
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+	
+		<header>
+			<h1>Pizza House</h1>
+		</header>
+	
+		<section>
+			<form action="enviarForm.jsp" method="post"> <!-- Atributo action usado apenas para ilustrar     -->
+														 <!-- o envio do formulário a uma aplicação em Java  -->
+				<fieldset>
+			
+					<legend>Conta:</legend>
+					
+					<div>
+						<label>E-mail:</label> <input type="email" placeholder="Insira seu e-mail" required /> 
+					</div>
+					
+					<div>
+						<label>Senha:</label> <input type="password" placeholder="Insira sua senha" required />
+					</div>
+				</fieldset>
+				
+			
+				<fieldset>
+				
+					<legend>Pessoal:</legend>
+					
+					<div>
+						<label>Nome:</label> <input type="text" placeholder="Insira seu nome" required />
+					</div>
+
+					<div>
+						<label>Telefone:</label> <input type="tel" placeholder="Insira seu telefone" required />
+					</div>
+					
+					<div>
+					
+						<label>Sexo:</label> 
+						
+						<input type="radio" id="masculino" name="sexo" value="1" required />
+						<label for="masculino">Masculino</label>
+						
+						<input type="radio" id="feminino" name="sexo" value="2" />
+						<label for="feminino">Feminino</label>
+					
+					</div>
+					
+					<div>
+						<label>Data de nascimento:</label> <input type="date" required />
+					</div>
+					
+					<div>
+						<label>Foto de perfil:</label> 
+					</div>
+					
+					<div>
+						<input type="file" required />
+					</div>
+				</fieldset>
+				
+				<fieldset>
+				
+					<legend>Endereço:</legend>
+					
+					<div>
+						<label>Rua:</label> <input type="text" placeholder="Insira o nome da rua" required />
+					</div>
+					
+					<div>
+						<label>Número:</label> <input type="number" placeholder="Insira o numero da residência" required />
+					</div>
+					
+					<div>
+						<label>Complemento:</label> <input type="text" placeholder="Casa, apto, próximo a..." required />
+					</div>
+					
+					<div>
+						<label>Cidade:</label> <input type="text" placeholder="Insira o nome da cidade" required />
+					</div>
+					
+					<div>
+						<label>Estado:</label>
+						
+						<select name="estados-brasil" required>
+							<option value="AC">Acre</option>
+							<option value="AL">Alagoas</option>
+							<option value="AP">Amapá</option>
+							<option value="AM">Amazonas</option>
+							<option value="BA">Bahia</option>
+							<option value="CE">Ceará</option>
+							<option value="DF">Distrito Federal</option>
+							<option value="ES">Espírito Santo</option>
+							<option value="GO">Goiás</option>
+							<option value="MA">Maranhão</option>
+							<option value="MT">Mato Grosso</option>
+							<option value="MS">Mato Grosso do Sul</option>
+							<option value="MG">Minas Gerais</option>
+							<option value="PA">Pará</option>
+							<option value="PB">Paraíba</option>
+							<option value="PR" selected>Paraná</option>
+							<option value="PE">Pernambuco</option>
+							<option value="PI">Piauí</option>
+							<option value="RJ">Rio de Janeiro</option>
+							<option value="RN">Rio Grande do Norte</option>
+							<option value="RS">Rio Grande do Sul</option>
+							<option value="RO">Rondônia</option>
+							<option value="RR">Roraima</option>
+							<option value="SC">Santa Catarina</option>
+							<option value="SP">São Paulo</option>
+							<option value="SE">Sergipe</option>
+							<option value="TO">Tocantins</option>
+						</select>
+						
+					</div>
+				</fieldset>
+				
+				<fieldset>
+				
+					<legend>Anúncio:</legend>
+					
+					<div>
+						<label>Como ficou sabendo da gente ? (:</label>
+					</div>
+					
+					<div>
+						<textarea name="mensagem" placeholder="Olá, conheci a pizzaria no... (:" required></textarea>
+					</div>
+				</fieldset>
+			
+					<div>
+						<input type="submit" value="Finalizar Cadastro" />
+					</div>
+			</form>
+		</section>
+		
+	</body>
+
+</html>
