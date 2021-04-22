@@ -7,6 +7,19 @@ public final class Terceiro extends Colaborador {
 	private String inscrEstadual;
 	private double horasTrabalhadas;
 	
+	/* Construtores */
+
+	public Terceiro(String empresa, String cnpj, String endComercial, String nomeColaborador, String inscrEstadual,
+			double horasTrabalhadas) {
+		super(empresa, cnpj, endComercial, nomeColaborador);
+		this.inscrEstadual = inscrEstadual;
+		this.horasTrabalhadas = horasTrabalhadas;
+	}
+	
+	public Terceiro() {
+		super();
+	}
+	
 	/* Métodos Setters & Getters */
 	
 	public String getInscrEstadual() {
@@ -25,19 +38,6 @@ public final class Terceiro extends Colaborador {
 		this.horasTrabalhadas = horasTrabalhadas;
 	}
 	
-	/* Construtores */
-
-	public Terceiro(String empresa, String cnpj, String endComercial, String nomeColaborador, String inscrEstadual,
-			double horasTrabalhadas) {
-		super(empresa, cnpj, endComercial, nomeColaborador);
-		this.inscrEstadual = inscrEstadual;
-		this.horasTrabalhadas = horasTrabalhadas;
-	}
-	
-	public Terceiro() {
-		super();
-	}
-
 	/* Métodos da classe */
 	@Override
 	public final double calcSalario(double salarioMinimo) {

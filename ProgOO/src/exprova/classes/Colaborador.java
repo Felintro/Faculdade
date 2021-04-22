@@ -9,37 +9,9 @@ public class Colaborador {
 	private String endComercial;
 	private String nomeColaborador;
 	
-	/* Métodos Setters & Getters */
-	
-	public String getEmpresa() {
-		return empresa;
-	}
-	public void setEmpresa(String empresa) {
-		this.empresa = empresa;
-	}
-	public String getCnpj() {
-		return cnpj;
-	}
-	public void setCnpj(String cnpj) {
-		this.cnpj = cnpj;
-	}
-	public String getEndComercial() {
-		return endComercial;
-	}
-	public void setEndComercial(String endComercial) {
-		this.endComercial = endComercial;
-	}
-	public String getNomeColaborador() {
-		return nomeColaborador;
-	}
-	public void setNomeColaborador(String nomeColaborador) {
-		this.nomeColaborador = nomeColaborador;
-	}
-	
 	/* Construtores */
 	
 	public Colaborador(String empresa, String cnpj, String endComercial, String nomeColaborador) {
-		super();
 		this.empresa = empresa;
 		this.cnpj = cnpj;
 		this.endComercial = endComercial;
@@ -47,7 +19,40 @@ public class Colaborador {
 	}
 	
 	public Colaborador() {
-		super();
+		
+	}
+	
+	/* Métodos Setters & Getters */
+	
+	public String getEmpresa() {
+		return empresa;
+	}
+	
+	public void setEmpresa(String empresa) {
+		this.empresa = empresa;
+	}
+	
+	public String getCnpj() {
+		return cnpj;
+	}
+	
+	public void setCnpj(String cnpj) {
+		this.cnpj = cnpj;
+	}
+	public String getEndComercial() {
+		return endComercial;
+	}
+	
+	public void setEndComercial(String endComercial) {
+		this.endComercial = endComercial;
+	}
+	
+	public String getNomeColaborador() {
+		return nomeColaborador;
+	}
+	
+	public void setNomeColaborador(String nomeColaborador) {
+		this.nomeColaborador = nomeColaborador;
 	}
 	
 	/* Métodos da classe */ 

@@ -23,15 +23,18 @@ public final class Empresa {
 
 		System.out.println("Insira o salário mínimo:\n");
 		double salarioMinimo = leitor.nextDouble();
+		leitor.nextLine();
 		
 		System.out.println("Insira o número do cnpj:\n");
 		String cnpj = leitor.nextLine();
+		
 		
 		System.out.println("Selecione o tipo do colaborador:\n");
 		System.out.println("1 - Funcionário");
 		System.out.println("2 - Estagiário");
 		System.out.println("3 - Terceiro\n\n");
 		int tipo = leitor.nextInt();
+		leitor.nextLine();
 		
 		System.out.println("Insira o endereço comercial:\n");
 		String endComercial = leitor.nextLine();
@@ -46,15 +49,18 @@ public final class Empresa {
 			
 			System.out.println("Insira o CPF:\n");
 			int cpf = leitor.nextInt();
+			leitor.nextLine();
 			
 			System.out.println("Insira o endereço residencial:\n");
 			String endResidencial = leitor.nextLine();
 			
 			System.out.println("Insira o número de dependentes:\n");
 			int numDependentes = leitor.nextInt();
+			leitor.nextLine();
 			
 			System.out.println("Insira o tempo de serviço (em anos):\n");
 			double tempoServico = leitor.nextDouble();
+			leitor.nextLine();
 			
 			c1 = new Funcionario(empresa, cnpj, endComercial, nomeColaborador, cpf, 
 					endResidencial, numDependentes, tempoServico);

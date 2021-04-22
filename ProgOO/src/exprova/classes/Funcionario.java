@@ -9,6 +9,21 @@ public final class Funcionario extends Colaborador {
 	private int numDependentes;
 	private double tempoServico;
 	
+	/* Construtores */
+	
+	public Funcionario(String empresa, String cnpj, String endComercial, String nomeColaborador, int cpf,
+			String endResidencial, int numDependente, double tempoServico) {
+		super(empresa, cnpj, endComercial, nomeColaborador);
+		this.cpf = cpf;
+		this.endResidencial = endResidencial;
+		this.numDependentes = numDependente;
+		this.tempoServico = tempoServico;
+	}
+
+	public Funcionario() {
+
+	}
+	
 	/* Métodos Setters & Getters */
 	
 	public int getCpf() {
@@ -43,26 +58,11 @@ public final class Funcionario extends Colaborador {
 		this.tempoServico = tempoServico;
 	}
 	
-	/* Construtores */
-	
-	public Funcionario(String empresa, String cnpj, String endComercial, String nomeColaborador, int cpf,
-			String endResidencial, int numDependente, double tempoServico) {
-		super(empresa, cnpj, endComercial, nomeColaborador);
-		this.cpf = cpf;
-		this.endResidencial = endResidencial;
-		this.numDependentes = numDependente;
-		this.tempoServico = tempoServico;
-	}
-
-	public Funcionario() {
-
-	}
-	
 	/* Métodos da classe */ 
 	
 	@Override
 	public double calcSalario(double salarioMinimo) {
-		double salario = salarioMinimo * (tempoServico + numDependentes/5);
+		double salario = salarioMinimo * (tempoServico + (double) numDependentes/5);
 		return salario;
 	}
 	

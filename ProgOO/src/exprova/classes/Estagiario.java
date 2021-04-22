@@ -6,16 +6,6 @@ public final class Estagiario extends Colaborador {
 	
 	private int cadCEEI;
 	
-	/* Métodos Setters & Getters */
-	
-	public int getCadCEEI() {
-		return cadCEEI;
-	}
-
-	public void setCadCEEI(int cadCEEI) {
-		this.cadCEEI = cadCEEI;
-	}
-	
 	/* Construtores */
 
 	public Estagiario(String empresa, String cnpj, String endComercial, String nomeColaborador, int cadCEEI) {
@@ -27,6 +17,16 @@ public final class Estagiario extends Colaborador {
 		super();
 	}
 
+	/* Métodos Setters & Getters */
+	
+	public int getCadCEEI() {
+		return cadCEEI;
+	}
+
+	public void setCadCEEI(int cadCEEI) {
+		this.cadCEEI = cadCEEI;
+	}
+	
 	/* Métodos da classe */
 	@Override
 	public final double calcSalario(double salarioMinimo) {
