@@ -1,12 +1,60 @@
-tas {
+.titulo {
+    
+    color: #ffd100;
+    font-size: 50pt;
+    font-weight: bold;
+    
+}
+
+.branco {
+
     font-size: 15pt;
-    font-family: Arial;
-    color: #bb2552;
+    font-family: Libel Suit;
+    color: #eeeeee;
 
 }
 
-.teste {
+body {
     
-    color: blue;
+    background-color: #333533;
+    
+}
+
+header {
+
+    color: #ffd100;
+    font-size: 25pt;
+    font-weight: bold;
+
+}
+
+#testID {
+
+    color: #eeeeee;
+
+}
+
+h2 {
+
+    font-style: italic;
+    font-size: 20pt;
+    font-weight: bold;
+
+}
+
+h3 {
+
+    font-style: italic;
+    font-size: 15pt;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+fieldset {
+
+    border-width: thick;
+    border-style: solid;
+    border-color: #eeeeee;
 
 }
