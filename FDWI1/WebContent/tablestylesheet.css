@@ -1,0 +1,27 @@
+table {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+th {
+    color: white;
+    background-color: blue;
+}
+
+
+td:hover {
+    background: black;
+    color: white;
+}
+
+.classe {
+    color: black;
+    background-color: lightblue;
+}
+
+tr:nth-child(odd) {
+
+    background: #0a7fecd7;
+}
