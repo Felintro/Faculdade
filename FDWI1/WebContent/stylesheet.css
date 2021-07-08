@@ -14,12 +14,6 @@
 
 }
 
-body {
-    
-    background-color: #333533;
-    
-}
-
 header {
 
     color: #ffd100;
@@ -42,12 +36,9 @@ h2 {
 
 }
 
-h3 {
+div { /* */
 
-    font-style: italic;
-    font-size: 15pt;
-    font-weight: bold;
-    margin: 0;
+    margin: 50px;
 
 }
 
@@ -56,5 +47,14 @@ fieldset {
     border-width: thick;
     border-style: solid;
     border-color: #eeeeee;
+
+}
+
+td {
+
+    border: 1px solid navy;
+    padding: 5px;
+    margin: 16px 16px 16px 16px;
+
 
 }
