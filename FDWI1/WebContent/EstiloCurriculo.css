@@ -1,0 +1,65 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: right;
+    margin: 20px;
+
+}
+
+table {
+
+    width: 700px;
+    border: 1px solid black;
+    padding: 0pt;
+    margin: 10pt 0pt;
+}
+
+td {
+
+    border: 1px solid black;
+    padding: 1pt;
+
+}
+
+.alinharEsquerda {
+
+    text-align: left;
+
+}
+
+.alinharDireita {
+
+    text-align: right;
+
+
+}
+
+.titulo {
+
+    text-align: right;
+    
+
+}
+
+.cabecalho {
+
+    text-align: right;
+    font-size: ;
+
+}
+
+#nome {
+
+    
+    font-size: 18pt;
+    font-weight: bold;
+
+}
+
+#cursos {
+
+    
+
+
+}
