@@ -11,7 +11,6 @@ body {
 table {
 
     width: 900px;
-    /* border: 1px solid black; */
     padding: 0pt;
     margin: 5pt 0pt;
     
@@ -20,94 +19,11 @@ table {
 
 td {
 
-    /* border: 1px solid black ; */
     padding: 1pt;
 }
 
 th {
 
     font-size: 18pt;
-
-}
-
-.alinharEsquerda {
-
-    text-align: left;
-
-}
-
-.alinharDireita {
-
-    text-align: right;
-
-
-}
-
-.justificar {
-
-    text-align: justify;
-
-}
-
-.titulo {
-
-    text-align: right;
-    
-
-}
-
-.cabecalho {
-
-    text-align: right;
-    font-size: ;
-
-}
-
-
-
-/*
-#dados {
-
-    border-top: 10px solid #2ade73;
-    border-radius: 10px;
-
-
-} */
-
-#nome {
-
-    font-size: 24pt;
-    font-weight: bold;
-
-}
-
-.linhaTitulo {
-
-    border-bottom: 10px solid #2ade73;
-    border-radius: 5pt;
-    
-}
-
-.linhaNova {
-
-    /*  width: 200px; */
-      border-bottom: 10px solid #2ade73;
-      border-radius: 5pt;
-      
-  
-  }
-
-#linhaEsquerda {
-
-    text-align: left;
-
-}
-
-#linhaDireita {
-
-    width: 200px;
-    border-bottom: 10px solid #2ade73;
-    text-align: right;
-
 
 }
