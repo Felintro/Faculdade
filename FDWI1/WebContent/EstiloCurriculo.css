@@ -4,6 +4,7 @@ body {
     color: black;
     text-align: right;
     margin: 10px;
+    width: 910px;
 
 }
 
@@ -14,13 +15,13 @@ table {
     padding: 0pt;
     margin: 5pt 0pt;
     
+    
 }
 
 td {
 
     /* border: 1px solid black ; */
     padding: 1pt;
-
 }
 
 th {
@@ -82,11 +83,9 @@ th {
 
 .linhaTitulo {
 
-  /*  width: 200px; */
     border-bottom: 10px solid #2ade73;
     border-radius: 5pt;
     
-
 }
 
 .linhaNova {
@@ -100,8 +99,6 @@ th {
 
 #linhaEsquerda {
 
-    width: 150px;
-    border-bottom: 10px solid #2ade73;
     text-align: left;
 
 }
