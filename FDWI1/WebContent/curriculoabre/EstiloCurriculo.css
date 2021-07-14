@@ -12,8 +12,7 @@ table {
 
     width: 900px;
     padding: 0pt;
-    margin: 5pt 0pt;
-    
+    margin: 10pt 22pt;
     
 }
 
@@ -28,12 +27,10 @@ th {
 
 }
 
-.bordas {
+.fundo {
 
-    border: 2px solid black;
-
-
-
-
+    background-image: url(imagens/exemplo.png);
+    background-repeat: no-repeat;
+    background-size: 1000px auto;
 
 }
