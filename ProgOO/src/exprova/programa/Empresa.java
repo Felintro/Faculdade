@@ -93,6 +93,8 @@ public final class Empresa {
 
 				}
 		
+		leitor.close();
+		
 		c1.relatorio();
 		System.out.println("Salário: " + c1.calcSalario(salarioMinimo));
 		System.out.println("........Fim Relatório Geral........");

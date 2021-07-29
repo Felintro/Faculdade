@@ -65,6 +65,7 @@ public class Programa {
 		System.out.println("Total: " + f1.calcularDesconto(valorCompra));
 		System.out.println("\n...................................\n");
 		
+		scan.close();
 		
 	}
 	

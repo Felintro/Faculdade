@@ -50,9 +50,13 @@ public class Programa {
 			escolha = leitor.nextInt();
 			leitor.nextLine();
 			
+			leitor.close();
+			
 		} while (escolha == 1);
 		
 		System.out.println("Sistema encerrado!");
+		
+		
 		
 	}
 

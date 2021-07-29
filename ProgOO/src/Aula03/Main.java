@@ -20,6 +20,7 @@ public class Main {
 		Aluno aluno = new Aluno(nome, nota1, nota2);
 		
 		aluno.relatorio();
+		leitor.close();
 	}
 	
 }

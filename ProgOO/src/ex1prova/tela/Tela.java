@@ -7,8 +7,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
-import ex1prova.classes.Calculo;
-
 import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.Font;

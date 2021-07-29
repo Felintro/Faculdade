@@ -28,4 +28,22 @@ public class Calculo {
 	
 	}
 	
+	/* Gets e sets */
+
+	public double getSalario() {
+		return salario;
+	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+
+	public double getImposto() {
+		return imposto;
+	}
+
+	public void setImposto(double imposto) {
+		this.imposto = imposto;
+	}
+	
 }

@@ -54,7 +54,8 @@ public class Programa {
 		System.out.println("\nQuantidade: " + pesca.getQtdePesca() + " kg");
 		System.out.println("Valor total: R$" + pesca.calcValorTotal(especie));
 		System.out.println("\n...................................\n");
-
+		
+		scan.close();
 	}
 
 }
