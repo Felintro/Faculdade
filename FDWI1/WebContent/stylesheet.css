@@ -22,8 +22,6 @@ blockquote {
 
 }
 
-<<<<<<< HEAD
-=======
 body {
     
     background-image: url(foto.png);
@@ -33,7 +31,6 @@ body {
     
 }
 
->>>>>>> branch 'master' of https://github.com/Felintro/Faculdade.git
 header {
 
     color: rgba(0, 255, 255, 0.5);
@@ -69,7 +66,7 @@ h2 {
 
 }
 
-div { /* */
+div {
 
     margin: 50px;
 
@@ -81,14 +78,13 @@ h4 {
     text-decoration: line-through;
     color: rgba(0, 255, 255, 1);
 
-
 }
 
 fieldset {
 
     border-width: thick;
     border-style: solid;
-    border-color: #eeeeee;
+    border-color: black;
 
 }
 
@@ -97,6 +93,4 @@ td {
     border: 1px solid navy;
     padding: 5px;
     margin: 16px 16px 16px 16px;
-
-
 }
